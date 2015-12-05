@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //ALl word First letter Capitalize
+
         TextView txtCapitalize = (TextView) findViewById(R.id.txtCapitalize);
 
         txtCapitalize.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
